@@ -1,0 +1,47 @@
+.sidebar {
+  padding: 10px 0;
+  :global(.iconfont) {
+    margin-right: 10px;
+  }
+}
+
+.login{
+  width: 100%;
+  display: flex;
+  background-color: rgb(179, 174, 174);
+  padding-top: 100px;
+  padding-bottom: 290px;
+  justify-content: center;
+}
+
+.header {
+  padding: 0 20px;
+  :global(.iconfont) {
+    color: #FFF;
+    cursor: pointer;
+  }
+  .avatar{
+    float: right;
+    width: 48px;
+    height: 48px;
+    margin: 9px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+.content {
+  padding: 20px;
+  min-height: 1000px;
+}
+
+.buttons {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px dashed #ccc;
+  text-align: center;
+  .reset {
+    margin-left: 20px;
+  }
+}
+

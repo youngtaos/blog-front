@@ -1,0 +1,26 @@
+.countdownWrapper{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    background-color: rgba($color: #757070, $alpha: 0.3);
+    border-radius: 22px;
+    right: 150px;
+    top: 70px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .timeTittle{
+        font-size: 28px;
+        color: white;
+        line-height: 30px;
+    }
+    .CountDowntime{
+        width: 100%;
+        font-size: 23px;
+        color: white;
+        
+    }
+}

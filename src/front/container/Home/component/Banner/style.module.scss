@@ -1,0 +1,64 @@
+.BannerWrapper{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 1280px;
+  position: relative;
+  height: 500px;
+  background-color: white;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  .Banner{
+      width: 1280px;
+      height: 350px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-image: url('https://blog-project-static-file.oss-cn-hangzhou.aliyuncs.com/images/bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+  }
+  
+  .Content{
+     position: absolute;
+     bottom: 0;
+     display: flex;
+     .word{
+        padding-top: 40px;
+        padding-left: 20px;
+        .title{
+            bottom: 100px;
+            left: 300px;
+            margin-left: 10px;
+            margin-top: 20px;
+            line-height: 50px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+      
+        .dsc{
+            width: 840px;
+            height: 95px;
+            color: #333;
+            margin-left: 10px;
+            font-size: 16px;
+            line-height: 32px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+     }
+     .PersonImg{
+        flex: 1;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        bottom: 20px;
+        margin-left: 40px;
+        border-radius: 20px;
+    }
+    
+  }
+  
+}
